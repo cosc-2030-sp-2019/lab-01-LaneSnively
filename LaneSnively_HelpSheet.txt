@@ -1,0 +1,18 @@
+Lane Snively's help sheet
+................................................................................
+C++:
+Begin a line with two forward slashes, //, to comment a single line in C++.
+Enclose a multi-line comment with /* at the beginning and */ at the end in C++.
+
+How to strip the final whitespace from a string in C++:
+std::string::substr(A, B) gerates a sub string starting at A ending at B
+std::string::find_last_not_of(character to ignore)
+example:
+pix_list[i].substr(0, pix_list[i].find_last_not_of(" \t\f\v\n\r"))
+=================================================================================
+Python: 
+Begin a line with a hash, #, to comment a single line in Python. 
+=================================================================================
+general: 
+A file ending in .md is a mark down file. This is the same as a .txt file, but with more capabilities. 
+
